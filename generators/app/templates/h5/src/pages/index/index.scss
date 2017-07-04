@@ -7,9 +7,10 @@
     color: $tc;
     background: $bc;
     text-align: center;
-    @include font-dpr(30px);
+    @include font-dpr(20px);
     h1{
-        margin-top: px2rem(200);
+        @include font-dpr(30px);
+        padding-top: px2rem(200);
     }
     .p-text{
         margin-top: px2rem(200);

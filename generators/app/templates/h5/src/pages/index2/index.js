@@ -14,10 +14,11 @@ class Index extends BaseIndex {
     initData(){
         this.box_main = $('#main');
 
-        postDataTest().then(data => {
+        postDataTest().then(result => {
+            console.log(result);
             this.box_main.html(tplIndex({
                 data: {
-                    str:data
+                    str:result.data.str
                 }
             }));
         });
