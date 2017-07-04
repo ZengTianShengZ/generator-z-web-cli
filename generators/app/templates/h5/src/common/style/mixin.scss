@@ -1,0 +1,103 @@
+// 主题背景颜色
+$bc: #ffea00;
+// 主题字体颜色
+$tc:#6d451e;
+// 主题字体淡颜色
+$tac:#d3b809;
+
+
+// 结合 flexible.js 按设计稿尺寸大小写样式
+@function px2rem($px, $base-font-size: 75px) {
+	@if (unitless($px)) {
+		@return px2rem($px + 0px);
+	} @else if (unit($px) == rem) {
+		@return $px;
+	}@else if (unit($px) == '%') {
+		@return $px;
+	}
+	@return ($px / $base-font-size) * 1rem;
+}
+// 设置字体大小
+@mixin font-dpr($font-size) {
+	font-size: $font-size;
+	[data-dpr="2"] & {
+		font-size: $font-size * 2;
+	}
+	[data-dpr="3"] & {
+		font-size: $font-size * 3;
+	}
+}
+// 100% 图片
+@mixin img-100($w ,$h ,$imgUrl){
+	width: px2rem($w);
+	height: px2rem($h);
+	background: url($imgUrl) no-repeat center;
+	background-size: 100%;
+}
+
+// 背景图片地址和大小
+@mixin bis($url) { 
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+@mixin borderRadius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+//定位全屏
+@mixin allcover{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+//定位上下左右居中
+@mixin center {  
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//定位上下居中
+@mixin ct {  
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+//定位上下居中
+@mixin cl {  
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+//宽高
+@mixin wh($width, $height){
+	width: $width;
+	height: $height;
+}
+
+//字体大小、行高、字体
+@mixin font($size, $line-height, $family: 'Microsoft YaHei') {  
+	font: #{$size}/#{$line-height} $family;
+}
+
+//字体大小，颜色
+@mixin sc($size, $color){
+	font-size: $size;
+	color: $color;
+}
+
+//flex 布局和 子元素 对其方式
+@mixin fj($display: column,$content:center){
+	display: flex;
+    flex-display: $display;
+    justify-content: $content;
+}

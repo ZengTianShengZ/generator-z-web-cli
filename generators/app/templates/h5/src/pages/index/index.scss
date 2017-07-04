@@ -1,0 +1,123 @@
+@import "../../common/style/style";
+@import "../../common/style/mixin";
+.select-content{
+    background: $bc;
+    padding-bottom: px2rem(80);
+    .p-text{
+        color: $tc;
+        padding: px2rem(36) 0 0 px2rem(30);
+        @include font-dpr(14px);
+    }
+    .time-select{
+        @include fj();
+        width: 100%;
+        padding: 0 px2rem(20);
+        box-sizing: border-box;
+        li{
+            width: 33.33%;
+            margin-top: px2rem(44);
+            .item{
+                width: px2rem(184);
+                margin: 0 auto;
+                text-align: center;
+                .item-top{
+                    color: $tc;
+                    border: 4px solid $tac;
+                    border-radius: px2rem(10);
+                }
+                .i-time{
+                    margin: px2rem(45) 0;
+                    @include font-dpr(32px);
+                }
+                .span-time{
+                    @include font-dpr(16px);
+                }
+                .span-line{
+                    display: block;
+                    width: 66%;
+                    height: 2px;
+                    background: $tac;
+                    margin: 0 auto;
+                }
+                .i-money{
+                    margin: px2rem(45) 0;
+                    @include font-dpr(32px);
+                }
+                .item-footer{
+                    width: px2rem(48);
+                    height: px2rem(48);
+                    margin: px2rem(24) auto 0;
+                    background: url("../../images/svg/uncheck.svg") no-repeat center;
+                }
+            }
+        }
+        .activity{
+            .item{
+                .item-top{
+                    color: $tc;
+                    border-color: $tc;
+                }
+                .span-line{
+                    background: $tc;
+                }
+                .item-footer{
+                    background-image: url("../../images/svg/checked.svg") ;
+                }
+            }
+        }
+    }
+}
+.select-result{
+    width: 100%;
+    .result-item{
+        width: 96%;
+        margin: px2rem(34) auto 0;
+        padding-bottom: px2rem(32);
+        text-indent: px2rem(50);
+        border-bottom:1px solid #cccccc ;
+        span{
+            display: block;
+        }
+        .i-span-tile{
+            @include font-dpr(16px);
+        }
+        .i-span-text{
+            margin-top: px2rem(20);
+            @include font-dpr(22px);
+            color: $tc;
+        }
+    }
+    .r-item-left,r-item-right{
+        width: 50%;
+    }
+    .result-money{
+        width: 100%;
+        margin-top: px2rem(40);
+        text-align: center;
+        @include font-dpr(32px);
+    }
+}
+.pay-btn{
+    width: px2rem(560);
+    height: px2rem(94);
+    margin: px2rem(36) auto 0;
+    border-radius: px2rem(10);
+    background: $bc;
+    color: $tc;
+    text-align: center;
+    line-height: px2rem(94);
+    @include font-dpr(18px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

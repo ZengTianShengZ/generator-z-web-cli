@@ -1,0 +1,10 @@
+{
+    "info":{
+        "title":"ract+webpack+redux 项目脚手架",
+        "name":"generator-z-react-cli",
+        "author":"曾田生",
+        "license":"MIT",
+        "Github":"https://github.com/ZengTianShengZ/generator-z-react-lic.git",
+        "npm":"https://www.npmjs.com/package/generator-z-react-cli"
+    }
+}
