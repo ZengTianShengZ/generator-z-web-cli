@@ -73,6 +73,16 @@ var Reactpackage = yeoman.Base.extend({
                 break;
             case 'h5':
                 this.directory('h5', './');
+                this.fs.copyTpl(
+                    this.templatePath('h5tpl/tpl1/index.tpl.html'),
+                    this.destinationPath('src/pages/index/tpl/index.tpl.html'),
+                    { text: '<%=data.str%>' }
+                );
+                this.fs.copyTpl(
+                    this.templatePath('h5tpl/tpl2/index.tpl.html'),
+                    this.destinationPath('src/pages/index2/tpl/index.tpl.html'),
+                    { text: '<%=data.str%>' }
+                );
                 break;
         }
     },

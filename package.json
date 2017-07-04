@@ -1,5 +1,5 @@
 {
-  "name": "generator-z-web-poj",
+  "name": "generator-z-web-cli",
   "version": "1.0.0",
   "description": "前端项目脚手架",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZengTianShengZ/generator-z-web-poj.git"
+    "url": "https://github.com/ZengTianShengZ/generator-z-web-cli.git"
   },
   "keywords": [
     "yeoman-generator"
@@ -15,7 +15,7 @@
   "author": "曾田生<ZengTianShengZ@163.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ZengTianShengZ/generator-z-web-poj/issues"
+    "url": "https://github.com/ZengTianShengZ/generator-z-web-cli/issues"
   },
   "dependencies": {
     "chai": "^3.3.0",

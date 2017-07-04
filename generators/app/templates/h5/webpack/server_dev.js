@@ -21,7 +21,7 @@ app.use(require('webpack-hot-middleware')(compiler));
 
 //将其他路由，全部返回index.html
 app.get('*', function(req, res) {
-	res.sendFile(__dirname + '/src/index.html')
+	res.sendFile(__dirname + '/src/index.tpl.html')
 });
 
 app.listen(8088, function() {
@@ -31,7 +31,7 @@ app.listen(8088, function() {
 		ui: false,
 		notify: false,
 		proxy: 'localhost:8088',
-		files: ['./src/index.html'],
+		files: ['./src/index.tpl.html'],
 		port: 8088
 	});
 });

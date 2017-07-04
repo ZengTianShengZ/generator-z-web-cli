@@ -19,14 +19,13 @@ app.all('*', function(req, res, next) {
     next();
 });
 
-app.post('/pay',bodyParser.json() ,function(req,res){
+app.post('/postDataTest',bodyParser.json() ,function(req,res){
     console.log(req.body);
     var reqBody = req.body;
     var resData = {
         err:0,
         data:{
-            name:'success',
-            userId:'38239191923'
+            str:'欢迎使用 z-web-cli 前端脚手架'
         }
     };
     res.end(JSON.stringify(resData));

@@ -31,13 +31,13 @@ npm install -g yo
 然后安装 脚手架
 
 ```
-npm install -g generator-z-web-poj
+npm install -g generator-z-web-cli
 
 ```
 
 最后新建个空文件夹,在文件夹里生成项目
 ```
-yo z-web-poj
+yo z-web-cli
 
 ```
  

@@ -9,7 +9,7 @@ var dataJson = require('./dataJson.json');
 app.use(express.static('build'))
 
 app.get('/', function (req, res) {
-	res.sendFile(__dirname + '/build/index.html')
+	res.sendFile(__dirname + '/build/index.tpl.html')
 });
 
 var server = app.listen(8088, function () {

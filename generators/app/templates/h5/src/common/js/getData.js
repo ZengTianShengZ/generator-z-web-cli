@@ -4,4 +4,4 @@
 import fetch from './lib/fetch';
 
 
-export const postPay = (postData) => fetch('/pay','POST',postData);
+export const postDataTest = (postData) => fetch('/postDataTest','POST',postData);
