@@ -7,16 +7,19 @@ var util = require('util');
 var yeoman = require('yeoman-generator');
 var yosay = require('yosay');    //yeoman弹出框
 var path = require('path');
+
 var Reactpackage = yeoman.Base.extend({
     appFrame:'',
     appName:'',
     prompting: function () {
-        return this.prompt([{
-            type    : 'input',
-            name    : 'name',
-            message : 'Your project name：',
-            default : this.appname // Default to current folder name
-        }, {
+        return this.prompt([
+        //     {
+        //     type    : 'input',
+        //     name    : 'name',
+        //     message : 'Your project name：',
+        //     default : this.appname // Default to current folder name
+        // },
+            {
             type : 'list',
             name : 'checkValue',
             message : 'Select the frame:',
@@ -97,9 +100,12 @@ var Reactpackage = yeoman.Base.extend({
     },
     end: function() {
         this.log(yosay(
-            ' app has been created successfully! then install dependencies' +
-            '/n  npm install'+
-            '/n  npm run hot'
+            `
+            ${this.appFrame} 项目创建成功 ，请安装相关依赖
+             npm install
+             npm run hot
+            
+             `
         ));
     }
 });

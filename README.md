@@ -1,8 +1,10 @@
 # 前端项目 脚手架 
 
-   
+ <h1 style="text-align:center">欢迎使用 z-web-cli 前端脚手架 </h1>
  
-
+ <div style="align: center">
+ ![](https://img.shields.io/npm/v/generator-z-web-cli.svg?style=flat-square)  ![](https://img.shields.io/david/cnpm/npminstall.svg?style=flat-square)  ![](https://img.shields.io/npm/dm/generator-z-web-cli.svg?style=flat-square)  ![](https://img.shields.io/npm/l/generator-z-web-cli.svg)
+ </div>
 ## webpack Feature
 
    - 可以解析JSX语法
@@ -24,6 +26,7 @@
 ## 使用脚手架 -- generator-z-react-cli
 
 首先确确保自己安装了 nodejs , 然后全局安装 yeoman
+
 ```
 npm install -g yo
 ```
@@ -36,8 +39,17 @@ npm install -g generator-z-web-cli
 ```
 
 最后新建个空文件夹,在文件夹里生成项目
+
 ```
 yo z-web-cli
 
 ```
  
+在生成项目时，可以选择是构建 react 项目 还是 h5 项目
+
+```
+? Select the frame: (Use arrow keys)
+> React 
+> h5
+```
+

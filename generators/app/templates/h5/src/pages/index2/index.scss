@@ -12,10 +12,33 @@
         @include font-dpr(30px);
         padding-top: px2rem(200);
     }
+    .h-img{
+        padding-top: px2rem(200);
+        width: px2rem(400);
+        height: px2rem(100);
+        background: url('../../images/zweb.png') no-repeat center;
+        background-size: 100%;
+        margin: 0 auto;
+
+    }
+    .link a{
+        display: inline-block;
+        padding: px2rem(0) px2rem(10);
+        background: rgba(12,107,184,0.7);
+        color: #ffffff;
+        border-radius: px2rem(4);
+        margin: 0 px2rem(20);
+        @include font-dpr(16px);
+    }
     .p-text{
-        margin-top: px2rem(200);
+        margin-top: px2rem(40);
+    }
+    .icon{
+        margin-top: px2rem(40);
     }
 }
+
+
 
 
 
