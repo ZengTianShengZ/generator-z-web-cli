@@ -1,4 +1,4 @@
-### <p align='center'>欢迎使用 z-web-cli 前端脚手架 </p>
+ 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ZengTianShengZ/generator-z-web-cli/master/zweb.png" alt="vuepack" width="600" height='200'>
@@ -6,7 +6,15 @@
  
 </p>
 
-    ![](https://img.shields.io/npm/v/generator-z-web-cli.svg?style=flat-square)  ![](https://img.shields.io/david/cnpm/npminstall.svg?style=flat-square)  ![](https://img.shields.io/npm/dm/generator-z-web-cli.svg?style=flat-square)  ![](https://img.shields.io/npm/l/generator-z-web-cli.svg)
+### <p align='center'>欢迎使用 z-web-cli 前端脚手架 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/npm/v/generator-z-web-cli.svg?style=flat-square" alt="vuepack" width="60" height='20'>
+   <img src="https://img.shields.io/david/cnpm/npminstall.svg?style=flat-square" alt="vuepack" width="60" height='20'>
+     <img src="https://img.shields.io/npm/dm/generator-z-web-cli.svg?style=flat-square" alt="vuepack" width="60" height='20'>
+       <img src="https://img.shields.io/npm/l/generator-z-web-cli.svg" alt="vuepack" width="60" height='20'>
+ 
+</p>
 
 ## webpack Feature
 
