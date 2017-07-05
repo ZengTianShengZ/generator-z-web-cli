@@ -16,12 +16,12 @@ let cdnPath = '';
 let buildPath ='';
 switch (argv){
     case '--build':
-        buildPath = 'http://bongads.b0.upaiyun.com/wechat/wxtest/static/';
-        cdnPath = 'http://bongads.b0.upaiyun.com/wechat/wxtest/static/';
+        buildPath = 'http://CDN/xxxxxxxxxxxxxx/static/';
+        cdnPath = 'http://CDN/xxxxxxxxxxxxxx/static/';
         // buildPath = '../../weix/wx-test/h5build/static';
         break;
     case '--online':
-        cdnPath = 'http://bongads.b0.upaiyun.com/share/online';
+        cdnPath = 'http://CDN/xxxxxxxxxxxxxx/online/static/';
         buildPath = path.resolve(__dirname,'build/static');
         break;
 }
