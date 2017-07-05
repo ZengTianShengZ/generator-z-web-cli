@@ -1,10 +1,13 @@
-# 前端项目 脚手架 
+### <p align='center'>欢迎使用 z-web-cli 前端脚手架 </p>
 
- <h1 style="text-align:center">欢迎使用 z-web-cli 前端脚手架 </h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ZengTianShengZ/generator-z-web-cli/master/zweb.png" alt="vuepack" width="600" height='200'>
+  <br><br>
  
- <div style="align: center">
- ![](https://img.shields.io/npm/v/generator-z-web-cli.svg?style=flat-square)  ![](https://img.shields.io/david/cnpm/npminstall.svg?style=flat-square)  ![](https://img.shields.io/npm/dm/generator-z-web-cli.svg?style=flat-square)  ![](https://img.shields.io/npm/l/generator-z-web-cli.svg)
- </div>
+</p>
+
+    ![](https://img.shields.io/npm/v/generator-z-web-cli.svg?style=flat-square)  ![](https://img.shields.io/david/cnpm/npminstall.svg?style=flat-square)  ![](https://img.shields.io/npm/dm/generator-z-web-cli.svg?style=flat-square)  ![](https://img.shields.io/npm/l/generator-z-web-cli.svg)
+
 ## webpack Feature
 
    - 可以解析JSX语法
