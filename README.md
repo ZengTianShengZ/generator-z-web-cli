@@ -1,7 +1,7 @@
 
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/ZengTianShengZ/generator-z-web-cli/master/zweb.png" alt="vuepack" width="400" height='100'>
+ <img src="https://raw.githubusercontent.com/ZengTianShengZ/generator-z-web-cli/master/zweb.png" alt="vuepack" width="561" height='200'>
  <br><br>
 
 </p>
@@ -12,7 +12,7 @@
  <img src="https://img.shields.io/npm/v/generator-z-web-cli.svg?style=flat-square" alt="vuepack" width="120" height='20'>
   <img src="https://img.shields.io/david/cnpm/npminstall.svg?style=flat-square" alt="vuepack" width="120" height='20'>
     <img src="https://img.shields.io/npm/dm/generator-z-web-cli.svg?style=flat-square" alt="vuepack" width="120" height='20'>
-      <img src="https://img.shields.io/npm/l/generator-z-web-cli.svg" alt="vuepack" width="120" height='20'>
+      <img src="https://img.shields.io/npm/l/generator-z-web-cli.svg" alt="vuepack" width="110" height='20'>
 
 </p>
 
@@ -164,3 +164,5 @@ npm run online
 
    - 本项目默认采用 zepto.js 库，ejs做模板引擎
    - 内部集成 weixin-js-sdk 可以选择是否使用
+
+#### [>> npm install](https://www.npmjs.com/package/generator-z-web-cli)
