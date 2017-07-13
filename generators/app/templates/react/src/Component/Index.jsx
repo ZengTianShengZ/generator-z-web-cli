@@ -19,16 +19,13 @@ class Index extends Component {
         }
     }
     render() {
-
         let {GetInitData} = this.props;
         let info = this.state.info;
-        if(GetInitData.get('initData')!=undefined){
+        if(GetInitData.get('initData')!= undefined){
             info = GetInitData.get('initData').data.info;
             // redux 数据 传递测试
             console.log(info)
         }
-
-
         return (
             <div id='IndexComp'>
                 <div className="comt">
@@ -41,7 +38,6 @@ class Index extends Component {
                         <span className="author_name">{info.author}</span>
                         <span><a href={info.Github}>Github</a></span>
                         <span><a href={info.npm}>npm</a></span>
-
                     </div>
                     <div className="icon">
                         <img src="https://img.shields.io/npm/v/generator-z-react-cli.svg?style=flat-square" alt="NPM version" className="badge"/>
@@ -50,7 +46,6 @@ class Index extends Component {
                         <img src="https://img.shields.io/npm/l/generator-z-react-cli.svg" alt="License"/>
                     </div>
                 </div>
-
             </div>
         )
     }
@@ -60,7 +55,7 @@ Index.propTypes = {
 };
 export default template({
     id: 'index',
-    url: '/getData',
+    url: '/getData',  // 如果页面初始化需要从服务端获取数据，可以在此配置接口
     data: {},
     subscribeData: ['GetInitData'],
     component: Index

@@ -18,7 +18,7 @@
     
 ##  目录结构
 ```
-  z-react-cli
+  ****z-react-cli****
   |-- index.html // 启动页(主页)
   |-- build //构建目录，遵循发布系统规范
   |    |-- index.html   //静态页面

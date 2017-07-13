@@ -28,7 +28,6 @@ const dispatchInitData = (path, json) => {
 export const fetchInitData = (path, data) => {
     return dispatch => {
         Tool.fetchData_P(path, data, (responseData)=> {
-
             return dispatch(dispatchInitData(path, responseData));
         })
     };

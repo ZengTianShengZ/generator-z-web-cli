@@ -43,7 +43,6 @@ const Main = mySetting => {
                 this.props.fetchInitData(this.props.setting.url, this.props.setting.data);
             }
         }
-
         /*
          nextProps 或 nextState 变化时回调该方法 重新渲染组件
          */
