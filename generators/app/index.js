@@ -41,7 +41,7 @@ var Reactpackage = yeoman.Base.extend({
         // }
         ]).then(function (answers) {
 
-            this.log('app name', answers.name);
+            this.log('app name', 'xxxxx');
             this.log('app frame', answers.checkValue);
             // this.log('cool feature', answers.cool);
 
