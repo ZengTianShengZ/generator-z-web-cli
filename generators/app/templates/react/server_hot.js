@@ -39,16 +39,16 @@ app.post('/getData',bodyParser.json() ,function(req,res){
 * 将其他路由，全部返回index.html
 */
 app.get('/*', function(req, res) {
-	res.sendFile(__dirname + '/index.tpl.html')
+	res.sendFile(__dirname + '/src/template/index.html')
 });
 app.listen(8088, function() {
 	console.log('正常打开8088端口');
 	bs.init({
-		open: false,
+		open: true,
 		ui: false,
 		notify: false,
 		proxy: 'localhost:8088',
-		files: ['./src/index.tpl.html'],
+		files: ['./src/template/index.html'],
 		port: 8088
 	});
 });

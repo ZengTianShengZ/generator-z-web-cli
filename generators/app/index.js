@@ -101,7 +101,7 @@ var Reactpackage = yeoman.Base.extend({
     end: function() {
         this.log(yosay(
             `
-            ${this.appFrame} 项目创建成功 ，请安装相关依赖
+          ${this.appFrame} 项目创建成功 ，请安装相关依赖
              npm install
              npm run hot
             

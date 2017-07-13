@@ -18,7 +18,6 @@ switch (argv){
     case '--build':
         buildPath = 'http://CDN/xxxxxxxxxxxxxx/static/';
         cdnPath = 'http://CDN/xxxxxxxxxxxxxx/static/';
-        // buildPath = '../../weix/wx-test/h5build/static';
         break;
     case '--online':
         cdnPath = 'http://CDN/xxxxxxxxxxxxxx/online/static/';

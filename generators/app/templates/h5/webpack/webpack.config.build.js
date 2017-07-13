@@ -23,19 +23,6 @@ for (i=0;i<pathConfig.HTML_PATHS.length;i++){
     webpackBase.plugins.push(htmlPlugin);
 }
 
-// var argv = process.argv.pop() || '--build';
-// var buildPath = '';
-// switch (argv){
-//     case '--build':
-//         // buildPath = 'http://bongads.b0.upaiyun.com/share/tt';
-//         buildPath = '/h5build/static';
-//         pathConfig.BUILD_PATH = '../../weix/wx-test/h5build/static';
-//         break;
-//     case '--online':
-//         buildPath = 'http://bongads.b0.upaiyun.com/share/online';
-//         break;
-// }
-
 module.exports = Object.assign(webpackBase,{
     output: {
         publicPath: pathConfig.PUBLIC_PATH,
