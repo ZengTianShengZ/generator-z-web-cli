@@ -31,7 +31,7 @@ class Index extends Component {
                 <div className="comt">
                     <div className="clearfloat">
                         <div className="logo"></div>
-                        <h2 className="title">z-react-cli <br/> 脚手架</h2>
+                        <h2 className="title">z-web-cli<br/>脚手架</h2>
                     </div>
                     <div className="git">
                         <span className="author">Author:</span>

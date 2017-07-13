@@ -88,15 +88,18 @@ yo z-web-cli
   |    |-- App.jsx          //js 入口文件
   |-- static                // 源码静态资源(公共资源)
   |
-  |-- webpack.config.hot       // 本地热编译
-  |-- webpack.config.buildt    // 编译发布测试环境
-  |-- webpack.config.online    // 编译发布线上环境
+  |-- webpack                   // 项目构建
+  |     |-- server_hot.js       // 日常服务
+  |     |-- server.js           // 发布测试服务
+  |     |-- webpack.config.base.js
+  |     |-- webpack.config.buildt.js
+  |     |-- webpack.config.hot.js
+  |-- pathConfig.js              项目构建路径配置
 
 ```
 
 #### 项目运行
-
-```  
+```
 # install dependencies
 npm install
 
@@ -104,7 +107,7 @@ npm install
 npm run hot
 
 # build for production with test
-npm run buildt
+npm run build
 
 # build for production with online
 npm run online
